@@ -15,11 +15,13 @@ const NavbarComponent = () => {
   return (
       <>
     
-    <Navbar  className='navbar' bg="white" expand="md">
-    <Container>
-        <Navbar.Brand as={Link} to={"/"}>
+    <Navbar  className='navbar  ' bg="white" expand="md">
+      
+
+     
+        <Navbar.Brand as={Link} to={"/"} >
             <motion.div initial={{opacity:0}} animate={{opacity:1,x:50 }} transition={{delay:0.1}} 
-            className="logo-div">
+            className="logo-div ">
                 <img src={image1} alt="Logo" className="logo" />
                 <div className="wrapper">
                     <span className="logo-text text-black">ousef Elmahy</span>
@@ -32,9 +34,9 @@ const NavbarComponent = () => {
 
         <Navbar.Collapse className=' justify-content-end ' id="basic-navbar-nav">
 
-        <Nav >                              
+        <Nav>                              
             <motion.a initial ={animateFrom} animate={animateto} transition={{delay:0.05}} whileHover={{scale:1.1}}
-                   href="/" data-rr-ui-event-key="/" className="nav-links text-center text-black nav-link">Home</motion.a >
+                   href="/" data-rr-ui-event-key="/" className="nav-links text-center text-black nav-link ">Home</motion.a >
 
             <motion.a initial ={animateFrom} animate={animateto} transition={{delay:0.10}} whileHover={{scale:1.1}}
              href="/#work" data-rr-ui-event-key="/#work" className="nav-links text-center text-black nav-link">Work</motion.a >
@@ -56,7 +58,7 @@ const NavbarComponent = () => {
 
         </Navbar.Collapse>
 
-    </Container>
+  
     </Navbar>
     </>
  
