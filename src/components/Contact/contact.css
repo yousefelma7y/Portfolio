@@ -1,0 +1,58 @@
+.contact-par{
+    color: #eb5424;
+}
+
+.contact-form{
+    padding: 20px;
+    margin-top: 70px;
+}
+
+ textarea {
+    background: rgb(243, 240, 240)
+}
+
+
+.sendmess {
+    background: #eb5424;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    width: 20%;
+    font-size: 13px;
+} 
+
+.sendmess:hover {
+    background: #fff;
+    color: #eb5424;
+    border: 1px solid black;
+}
+.sendmess:active {
+    background: #fff;
+    color: #eb5424;
+    border: 1px solid black;
+}
+
+@media (max-width:620px) { 
+    .sendmess {
+        width: 40%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:490px) { 
+    .contact-par{
+       font-size: 15px;
+    }
+
+}
+@media (max-width:390px) { 
+    .contact-par{
+       font-size: 12px;
+    }
+    .sendmess {
+        width: 40%;
+        font-size: 12px;
+    }
+
+}

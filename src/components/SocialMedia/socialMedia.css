@@ -1,0 +1,28 @@
+.facebook{
+    height: 250px;
+    background-color: #3b5998;
+    border: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.facebook:hover{
+    background: #5f84d4;
+}
+.github{
+    height: 250px;
+    background:#cc2127 ;
+    border: 0px;
+    cursor: pointer;
+}
+.github:hover{
+    background: #e2474c ;
+}
+.linked{
+    height: 250px;
+    background:  rgb(30, 197, 30);
+    border: 0px;
+    cursor: pointer;
+}
+.linked:hover{
+    background: rgb(71, 230, 71);
+}

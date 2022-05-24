@@ -1,0 +1,42 @@
+
+.email{
+    color:#cf4f28;
+}
+
+.parent {
+    height: 2px;
+    clear: both;
+    background: #f8f8f8;
+    position: relative;
+    top: 5px
+}
+ .parent span {
+    background: #eb5424;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0
+}
+
+.sp1 {
+    width: 90%;
+}
+
+.sp2 {
+    width: 75%;
+}
+
+.sp3 {
+    width: 70%;
+}
+.sp4 {
+    width: 75%;
+}
+.sp5 {
+    width: 10%;
+}
+
+.sp6 {
+    width: 10%;
+}

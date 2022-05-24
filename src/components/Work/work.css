@@ -1,0 +1,14 @@
+.work-card{
+    height: 400px;
+    border: 1px solid #888;
+    padding-top: 150px;
+}
+.work-header{
+    margin-left: 60px;
+    margin-top: 60px;
+    font-size: 50px;
+}
+.work-title{
+  font-weight: bold;
+  color: #eb5424;
+}

@@ -1,0 +1,37 @@
+.about-page{
+   
+    background: url('../../images/1.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed ;
+}
+.about-header{
+    font-weight: bold;
+    font-size: 50px;
+}
+.about-header2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #eb5424;
+}
+
+@media (max-width:485px) { 
+    .about-header2{ 
+        font-size: 30px;
+    }
+}
+@media (max-width:420px) { 
+    .about-header{ 
+        font-size: 40px;
+    }
+
+}
+@media (max-width:395px) {
+    .about-header{ 
+        font-size: 30px;
+    } 
+    .about-header2{ 
+        font-size: 25px;
+    }
+
+}
