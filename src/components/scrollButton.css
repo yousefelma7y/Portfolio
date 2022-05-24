@@ -1,0 +1,22 @@
+.scroll-but{
+    position: fixed; 
+    width: 100%;
+    left: 85%;
+    bottom: 20%;
+    height: 20px;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #eb5424;
+  
+ }
+ .scroll-but:hover{
+     color: #d34317;
+     font-size: 3.5rem;
+ }
+ .scroll-but:active{
+     color: #d34317;
+ }
+   
+   
+    
+ 

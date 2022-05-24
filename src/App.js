@@ -8,6 +8,7 @@ import Navbar from './components/Navbar/navbar.js';
 import Pages from './components/Pages/pages';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
+import ScrollButton from './components/scrollButton';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           
         </Routes>
+        <ScrollButton/>
        <Footer/>
      </BrowserRouter>
      
