@@ -18,7 +18,6 @@ function App() {
        <Navbar/>
        <Routes>
           <Route path="/" exact  element={<Pages />} />
-       
           <Route path="/contact" element={<Contact />} />
           
         </Routes>
