@@ -15,7 +15,7 @@ const Home = () => {
         <motion.p initial={{opacity:0 ,x:350 }} animate={{opacity:1 ,x:0}} transition={{delay:0.5}} 
          className='home-desc'>
             Iam a professional 
-            <span>Full-Stack Web Developer</span>  
+            <span> Full-Stack Web Developer </span>  
             creating modern and resposive designs to Web and Mobile.
             <br></br> Let us work together. Thank you.
         </motion.p>

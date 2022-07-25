@@ -23,7 +23,7 @@ const about = () => {
         </motion.h2>
         <motion.p initial={{opacity:0 ,y:150 }} animate={{opacity:1 ,y:0}} transition={{delay:0.3}} 
         className='p-2 fs-5'>
-        I'm a Full-Stack Web Developer in Egypt. I have been performing as a web developer for 2
+        I'm a Full-Stack Web Developer in Egypt. I have been performing as a web developer for 3
          years and am still in  the process of gaining more experience through more years. As you're 
          reading this, I'm working to develop my skills.
         </motion.p>

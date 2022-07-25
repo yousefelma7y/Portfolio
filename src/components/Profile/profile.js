@@ -27,7 +27,7 @@ const profile = () => {
             <motion.div initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.4}} 
              className='profile-items row'>
             <span className='col-xl-3 col-6 fw-bold'>Address</span>
-            <span className='col-xl-3 col-6'> Damanhour  </span>
+            <span className='col-xl-3 col-6'> Egypt  </span>
             </motion.div>
             <motion.div initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.5}} 
             className='profile-items row'>
@@ -58,9 +58,16 @@ const profile = () => {
          </Row>
          <Row  className="profile-skills">
             <span className="col-6 p-3">CSS</span>
-            <span className="col-6 p-3 text-center">75%</span>
+            <span className="col-6 p-3 text-center">80%</span>
             <div className="parent col-12">
                 <span className="sp2"></span>
+            </div>
+         </Row>
+         <Row  className="profile-skills">
+            <span className="col-6 p-3">Bootstrap</span>
+            <span className="col-6 p-3 text-center">85%</span>
+            <div className="parent col-12">
+                <span className="sp7"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
@@ -72,7 +79,7 @@ const profile = () => {
          </Row>
          <Row  className="profile-skills">
             <span className="col-6  p-3">React.js</span>
-            <span className="col-6  p-3 text-center">75%</span>
+            <span className="col-6  p-3 text-center">80%</span>
             <div className="parent col-12">
                 <span className="sp4"></span>
             </div>
