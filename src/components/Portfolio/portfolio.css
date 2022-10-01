@@ -2,31 +2,29 @@
     background-color: #f8f8f8;
 }
 
+
+
+.first-proj{
+    background: url('../../images/souq.png');
+}
+.secound-proj{ 
+    background: url('../../images/project\ 1.png'); 
+}
+.third-proj{
+    background: url('../../images/project\ 2.png'); 
+}
+
+
 .projects{
     border: 3px solid #cf4f28;
     height: 250px;
     margin: 20px;
     padding: 0px;
-}
-.first-proj{
-   
-    background: url('../../images/project\ 1.png'); 
     background-size: cover;
     background-position: center;
 }
-.secound-proj{
-    background: url('../../images/project\ 2.png'); 
-    background-size: cover;
-    background-position: center;
 
-}
-.third-proj{
 
-    background: url('../../images/project\ 3.png');
-    background-size: cover;
-    background-position: center;
-
-}
 .overlay{
     background: rgba(235, 82, 36, 0.541); 
     transition: opacity 0.7s ease-in-out ;
