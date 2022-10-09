@@ -2,8 +2,6 @@
     background-color: #f8f8f8;
 }
 
-
-
 .first-proj{
     background: url('../../images/souq.png');
 }
@@ -24,18 +22,16 @@
     background-position: center;
 }
 
-
 .overlay{
-    background: rgba(235, 82, 36, 0.541); 
-    transition: opacity 0.7s ease-in-out ;
-    opacity: 0;
+    backdrop-filter: blur(10px);
+    transition: opacity 0.7s ease-in-out ; 
     height: 100%;
-    width: 100%;
+    width: 100%; 
+   
+    opacity: 0;
 }
 .projects:hover .overlay{
 opacity: 1;
 }
-.show-project{
-    border: 2px solid #cf4f28;
-   margin-top: 25%;
-}
+
+

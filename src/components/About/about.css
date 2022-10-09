@@ -15,9 +15,22 @@
 }
 
 @media (max-width:485px) { 
+    .about-header{
+        color: white;  
+    }
     .about-header2{ 
         font-size: 30px;
     }
+    .about-page{   
+        background-image: url('../../images/me.jpg');
+        background-position:left;
+        background-attachment:unset ;  
+       
+    }
+    .about-me{
+        color: white;
+    }
+  
 }
 @media (max-width:420px) { 
     .about-header{ 

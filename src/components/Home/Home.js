@@ -16,12 +16,12 @@ const Home = () => {
          className='home-desc'>
             Iam a professional 
             <span> Full-Stack Web Developer </span>  
-            creating modern and resposive designs to Web and Mobile.
+            creating modern and responsive designs to Web and Mobile.
             <br></br> Let us work together. Thank you.
         </motion.p>
-        <motion.button initial={{opacity:0 ,y:350 }} animate={{opacity:1 ,y:0}} transition={{delay:0.6}}  className='home-btn'>
-           <a  className='home-btn' href="#work"> Let's Begin </a>
-        </motion.button>
+        <motion.a href="#work" initial={{opacity:0 ,y:350 }} animate={{opacity:1 ,y:0}} transition={{delay:0.6}}  className='home-btn'>
+            Let's Begin 
+        </motion.a>
     </Container>   
     </div>
   )
