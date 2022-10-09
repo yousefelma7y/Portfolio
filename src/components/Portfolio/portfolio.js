@@ -44,12 +44,15 @@ const portfolio = () => {
         <motion.div initial={{opacity:0 ,y:-50 ,x:-50}} animate={{opacity:1 ,y:0 ,x:0 }} transition={{delay:0.05}}   whileHover={{y:-10}} 
          key={projects.id} className={projects.class} >
             <p className="overlay p-5">
-                 <Button  variant="danger" className="mt-5 m-1" onClick={()=> window.open( projects.website , "_blank")}>
+              <div className='mt-5 '>
+                 <Button  variant="danger" className=" m-1" onClick={()=> window.open( projects.website , "_blank")}>
                     <AiOutlineSelect/> VIEW WEBSITE
                  </Button >
-                 <Button   variant="success" className="mt-5 m-1" onClick={()=> window.open( projects.github , "_blank")}>
+                 <Button   variant="success" className="  m-1" onClick={()=> window.open( projects.github , "_blank")}>
                     <BsGithub/> GITHUB
                  </Button >
+              </div>
+                
              </p>
            </motion.div>)
       }

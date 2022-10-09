@@ -26,9 +26,9 @@
     backdrop-filter: blur(10px);
     transition: opacity 0.7s ease-in-out ; 
     height: 100%;
-    width: 100%; 
+    width: 100.2%; 
    
-    opacity: 0;
+    opacity: 1;
 }
 .projects:hover .overlay{
 opacity: 1;
