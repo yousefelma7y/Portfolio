@@ -50,50 +50,50 @@ const profile = () => {
          </motion.h1>
 
          <Row    className=" profile-skills ">
-            <span className="col-6 p-3">HTML</span>
-            <span className="col-6 p-3 text-center">90%</span>
+            <motion.span initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.2}}  className="col-6 p-3">HTML</motion.span>
+            <motion.span initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.2}} className="col-6 p-3 text-center">90%</motion.span>
             <div className="parent col-12">
                 <span className="sp1"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
-            <span className="col-6 p-3">CSS</span>
-            <span className="col-6 p-3 text-center">80%</span>
+            <motion.span initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.3}}  className="col-6 p-3">CSS</motion.span>
+            <motion.span initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.3}} className="col-6 p-3 text-center">80%</motion.span>
             <div className="parent col-12">
                 <span className="sp2"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
-            <span className="col-6 p-3">Bootstrap</span>
-            <span className="col-6 p-3 text-center">85%</span>
+            <motion.span initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.4}}  className="col-6 p-3">Bootstrap</motion.span>
+            <motion.span initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.4}} className="col-6 p-3 text-center">85%</motion.span>
             <div className="parent col-12">
                 <span className="sp7"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
-            <span className="col-6  p-3">JavaScript</span>
-            <span className="col-6  p-3 text-center">70%</span>
+            <motion.span initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.5}}  className="col-6  p-3">JavaScript</motion.span>
+            <motion.span initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.5}} className="col-6  p-3 text-center">70%</motion.span>
             <div className="parent col-12">
                 <span className="sp3"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
-            <span className="col-6  p-3">React.js</span>
-            <span className="col-6  p-3 text-center">80%</span>
+            <motion.span initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.6}}  className="col-6  p-3">React.js</motion.span>
+            <motion.span initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.6}} className="col-6  p-3 text-center">80%</motion.span>
             <div className="parent col-12">
                 <span className="sp4"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
-            <span className="col-6 p-3">Node.js</span>
-            <span className="col-6  p-3 text-center">10%</span>
+            <motion.span initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.7}}  className="col-6 p-3">Node.js</motion.span>
+            <motion.span initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.7}} className="col-6  p-3 text-center">10%</motion.span>
             <div className="parent col-12">
                 <span className="sp5"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
-            <span className="col-6  p-3">MongoDB </span>
-            <span className="col-6  p-3 text-center">10%</span>
+            <motion.span initial={{opacity:0 ,x:-150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.8}}  className="col-6  p-3">MongoDB </motion.span>
+            <motion.span initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.8}} className="col-6  p-3 text-center">10%</motion.span>
             <div className="parent col-12">
                 <span className="sp6"></span>
             </div>

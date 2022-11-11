@@ -30,7 +30,7 @@ const ScrollButton = () => {
   return (
 
 
-    <div className='scroll-but'>
+    <div className='scroll-but d-md-flex d-none d-print-block'>
        <BsArrowUpCircleFill onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}} />
     </div>
   )

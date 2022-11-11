@@ -1,14 +1,16 @@
 .portfolio-page{
     background-color: #f8f8f8;
 }
-
 .first-proj{
+    background: url('../../images/smartschool.png');
+}
+.secound-proj{
     background: url('../../images/souq.png');
 }
-.secound-proj{ 
+.third-proj{ 
     background: url('../../images/project\ 1.png'); 
 }
-.third-proj{
+.fourth-proj{
     background: url('../../images/project\ 2.png'); 
 }
 

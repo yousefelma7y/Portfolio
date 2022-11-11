@@ -16,7 +16,7 @@
     "react-dom": "^17.0.2",
     "react-hooks": "^1.0.1",
     "react-icons": "^4.3.1",
-    "react-intersection-observer": "^8.32.3",
+    "react-intersection-observer": "^8.34.0",
     "react-router-dom": "^0.0.0-experimental-compat.6",
     "react-scripts": "4.0.3",
     "routes": "^2.1.0",

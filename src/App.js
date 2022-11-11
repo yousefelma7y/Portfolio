@@ -21,7 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           
         </Routes>
-        <ScrollButton/>
+        <ScrollButton />
        <Footer/>
      </BrowserRouter>
      

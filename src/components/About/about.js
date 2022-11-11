@@ -5,14 +5,12 @@ import './about.css';
 
 const about = () => {
   return (
-    <div className=' about-page w-100' id='about'>
-      <Row className='w-100 justify-content-end'>
-
-     
-      <div className='col-sm-6 col-0'>
-
+    <div className='about-page ' id='about'>
+    <Row className='w-100 m-0'>
+      <div className='col-md-6  d-md-flex d-none d-print-block'>
+    
       </div>
-      <div className='aboutme-smallScreen col-lg-5 col-11 '>
+      <div className='aboutme-smallScreen col-lg-6 col-12 px-5 '>
         <motion.h1 initial={{opacity:0 ,x:150 }} animate={{opacity:1 ,x:0}} transition={{delay:0.1}}
          className='about-header pt-5 mt-5 '>
           This is Me

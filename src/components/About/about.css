@@ -3,6 +3,13 @@
     background-size: cover;
     background-position: top;
     background-attachment: fixed ;
+    height: 500px;
+  
+   
+}
+.aboutme-smallScreen{  
+    height: 500px;  
+    
 }
 .about-header{
     font-weight: bold;
@@ -13,7 +20,12 @@
     font-size: 40px;
     color: #eb5424;
 }
+@media (max-width:991px) { 
+    .aboutme-smallScreen{
+        background-image: linear-gradient(rgba(117, 117, 4, 0), rgba(0, 0, 0, 0.502));     
+    }
 
+}
 @media (max-width:485px) { 
     .about-header{
         color: white;  
@@ -30,7 +42,7 @@
     .about-me{
         color: white;
     }
-  
+   
 }
 @media (max-width:420px) { 
     .about-header{ 

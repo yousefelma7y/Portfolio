@@ -1,5 +1,4 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React  from 'react'
 import { Button, Row } from 'react-bootstrap'
 import './portfolio.css';
 
@@ -8,26 +7,42 @@ import { BsGithub } from 'react-icons/bs';
 import { AiOutlineSelect } from 'react-icons/ai';
 
 
+
+
 const portfolio = () => {
+  
+
+
 
   const projects = [
     {
       id: 1 ,
       class: 'projects first-proj col-md-3 col-sm-5 col-9' ,
-      website : 'https://ecommerce-souq.netlify.app/',
-      github: 'https://github.com/yousefelma7y/eCommerce' ,
+      website : '',
+      github: '' ,
+      delay: '0.1' ,
     } ,
     {
       id: 2 ,
-      class: 'projects secound-proj col-md-3 col-sm-5 col-9'  ,
-      website : 'https://damanhour-football.netlify.app/',
-      github: 'https://github.com/yousefelma7y/football' ,
-    },
+      class: 'projects secound-proj col-md-3 col-sm-5 col-9' ,
+      website : 'https://ecommerce-souq.netlify.app/',
+      github: 'https://github.com/yousefelma7y/eCommerce' ,
+      delay: '0.2' ,
+    } ,
     {
       id: 3 ,
       class: 'projects third-proj col-md-3 col-sm-5 col-9'  ,
+      website : 'https://damanhour-football.netlify.app/',
+      github: 'https://github.com/yousefelma7y/football' ,
+      delay: '0.3' ,
+    },
+    {
+      id: 4 ,
+      class: 'projects fourth-proj col-md-3 col-sm-5 col-9'  ,
       website : 'https://travelagency711.000webhostapp.com/',
       github: 'https://github.com/yousefelma7y/Travel-Agency' ,
+      delay: '0.4' ,
+
     },
  
   ]
@@ -41,7 +56,7 @@ const portfolio = () => {
 
       {
         projects.map(projects =>  
-        <motion.div initial={{opacity:0 ,y:-50 ,x:-50}} animate={{opacity:1 ,y:0 ,x:0 }} transition={{delay:0.05}}   whileHover={{y:-10}} 
+        <motion.div  initial={{opacity:0 ,y:-50 ,x:-60}} animate={{opacity:1 ,y:0 ,x:0 }} transition={{delay:projects.delay}} whileHover={{y:-10}} 
          key={projects.id} className={projects.class} >
             <p className="overlay p-5">
               <div className='mt-5 '>
