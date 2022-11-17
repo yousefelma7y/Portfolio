@@ -17,32 +17,35 @@ const portfolio = () => {
   const projects = [
     {
       id: 1 ,
+      name: 'Movies Lights Out',
       class: 'projects first-proj col-md-3 col-sm-5 col-9' ,
-      website : '',
-      github: '' ,
+      website : 'https://movies-lights-out.netlify.app/',
+      github: 'https://github.com/yousefelma7y/Movie-app' ,
       delay: '0.1' ,
     } ,
     {
       id: 2 ,
+      name: 'Smart School',
       class: 'projects secound-proj col-md-3 col-sm-5 col-9' ,
+      website : 'https://new-dawn-school.netlify.app/',
+      github: 'https://github.com/yousefelma7y/NewDawnSchool' ,
+      delay: '0.1' ,
+    } ,
+    {
+      id: 3 ,
+      name: 'Ecommerce Souq',
+      class: 'projects third-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://ecommerce-souq.netlify.app/',
       github: 'https://github.com/yousefelma7y/eCommerce' ,
       delay: '0.2' ,
     } ,
     {
-      id: 3 ,
-      class: 'projects third-proj col-md-3 col-sm-5 col-9'  ,
+      id: 4 ,
+      name: 'Damanhour Football',
+      class: 'projects fourth-proj col-md-3 col-sm-5 col-9'  ,
       website : 'https://damanhour-football.netlify.app/',
       github: 'https://github.com/yousefelma7y/football' ,
       delay: '0.3' ,
-    },
-    {
-      id: 4 ,
-      class: 'projects fourth-proj col-md-3 col-sm-5 col-9'  ,
-      website : 'https://travelagency711.000webhostapp.com/',
-      github: 'https://github.com/yousefelma7y/Travel-Agency' ,
-      delay: '0.4' ,
-
     },
  
   ]
@@ -58,7 +61,8 @@ const portfolio = () => {
         projects.map(projects =>  
         <motion.div  initial={{opacity:0 ,y:-50 ,x:-60}} animate={{opacity:1 ,y:0 ,x:0 }} transition={{delay:projects.delay}} whileHover={{y:-10}} 
          key={projects.id} className={projects.class} >
-            <p className="overlay p-5">
+            <p className="overlay p-2 ">
+              <p className='projects-name fs-3 '>{projects.name}</p>
               <div className='mt-5 '>
                  <Button  variant="danger" className=" m-1" onClick={()=> window.open( projects.website , "_blank")}>
                     <AiOutlineSelect/> VIEW WEBSITE

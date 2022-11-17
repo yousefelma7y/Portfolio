@@ -2,18 +2,25 @@
     background-color: #f8f8f8;
 }
 .first-proj{
-    background: url('../../images/smartschool.png');
+    background: url('../../images/Movie-app.png');
+    
 }
 .secound-proj{
+    background: url('../../images/smartschool.png');
+}
+.third-proj{
     background: url('../../images/souq.png');
 }
-.third-proj{ 
-    background: url('../../images/project\ 1.png'); 
-}
-.fourth-proj{
-    background: url('../../images/project\ 2.png'); 
+.fourth-proj{ 
+    background: url('../../images/football.png'); 
 }
 
+.projects-name{
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #000000;
+
+}
 
 .projects{
     border: 3px solid #cf4f28;
