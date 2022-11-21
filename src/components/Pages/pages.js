@@ -13,7 +13,7 @@ const Pages = () => {
 
    
         return(
-            <div>
+            <div >
                 <Home/>                 
                 <Work/>
                 <Portfolio/>   

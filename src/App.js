@@ -16,7 +16,7 @@ function App() {
     <>
      <BrowserRouter>
        <Navbar/>
-       <Routes>
+       <Routes >
           <Route path="/" exact  element={<Pages />} />
           <Route path="/contact" element={<Contact />} />
           
