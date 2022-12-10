@@ -53,7 +53,7 @@ const About = () => {
         </motion.h2>
         <motion.p animate={animation}
         className='about-me  fs-5 pt-3 pb-3 '>
-        I'm a Full-Stack Web Developer in Egypt. I have been performing as a web developer for 3
+        I'm a Front-End Web Developer in Egypt. I have been performing as a web developer for 3
          years and am still in  the process of gaining more experience through more years. As you're 
          reading this, I'm working to develop my skills.
         </motion.p>

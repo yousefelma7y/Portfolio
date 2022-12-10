@@ -54,8 +54,9 @@ const Home = () => {
         </motion.h3>
         <motion.p  animate={animation} 
          className='home-desc'>
-            Iam a professional 
-            <span> Full-Stack Web Developer </span>  
+          
+          I'm a professional
+            <span> Front-End Web Developer </span>  
             creating modern and responsive designs to Web and Mobile.
             <br></br> Let us work together. Thank you.
         </motion.p>

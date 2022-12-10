@@ -38,7 +38,7 @@ const Work = () => {
     {
       id:1,
       workName : 'Front End' ,
-      workDescription : 'Trained at ITI company for 2 months as a Front End developer .' ,
+      workDescription : 'Trained at ITI company for 3 months as a Front End developer .' ,
 
     },
     {
