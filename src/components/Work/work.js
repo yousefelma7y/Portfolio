@@ -37,15 +37,19 @@ const Work = () => {
   const works =[
     {
       id:1,
-      workName : 'Front End' ,
-      workDescription : 'Trained at ITI company for 3 months as a Front End developer .' ,
-
+      workName : 'CTA Company' ,
+      workDescription : 'Worked as a Frontend developer in CTA Company for 1 year.' ,
     },
     {
       id:2,
       workName : 'Freelance' ,
       workDescription : 'Worked as a freelancer in many projects.' ,
-     
+    },
+    {
+      id:3,
+      workName : 'Internship' ,
+      workDescription : 'Trained at ITI company for 3 months as a Front End developer .' ,
+
     }
   ]
 
