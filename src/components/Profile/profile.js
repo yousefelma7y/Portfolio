@@ -82,35 +82,35 @@ const Profile = () => {
 
          <Row    className=" profile-skills ">
             <motion.span animate={animation2}   className="col-6 p-3">HTML</motion.span>
-            <motion.span animate={animation2}  className="col-6 p-3 text-center">90%</motion.span>
+            <motion.span animate={animation2}  className="col-6 p-3 text-center">95%</motion.span>
             <div className="parent col-12">
                 <span className="sp1"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
             <motion.span animate={animation2}   className="col-6 p-3">CSS</motion.span>
-            <motion.span animate={animation2}  className="col-6 p-3 text-center">80%</motion.span>
+            <motion.span animate={animation2}  className="col-6 p-3 text-center">90%</motion.span>
             <div className="parent col-12">
                 <span className="sp2"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
             <motion.span animate={animation2}   className="col-6 p-3">Bootstrap</motion.span>
-            <motion.span animate={animation2}  className="col-6 p-3 text-center">85%</motion.span>
+            <motion.span animate={animation2}  className="col-6 p-3 text-center">90%</motion.span>
             <div className="parent col-12">
                 <span className="sp3"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
             <motion.span animate={animation2}   className="col-6  p-3">JavaScript</motion.span>
-            <motion.span animate={animation2}  className="col-6  p-3 text-center">80%</motion.span>
+            <motion.span animate={animation2}  className="col-6  p-3 text-center">85%</motion.span>
             <div className="parent col-12">
                 <span className="sp4"></span>
             </div>
          </Row>
          <Row  className="profile-skills">
             <motion.span animate={animation2}   className="col-6  p-3">React.js</motion.span>
-            <motion.span animate={animation2}  className="col-6  p-3 text-center">90%</motion.span>
+            <motion.span animate={animation2}  className="col-6  p-3 text-center">95%</motion.span>
             <div className="parent col-12">
                 <span className="sp5"></span>
             </div>

@@ -44,7 +44,7 @@ const Portfolio = () => {
       id: 1 ,
       name: 'FootBall Reservation',
       class: 'projects fourth-proj col-md-3 col-sm-5 col-9' ,
-      website : 'https://cta-football-reservation.netlify.app/',
+      website : 'https://walrus-app-oscsz.ondigitalocean.app/',
       github: 'https://github.com/yousefelma7y/cta-football-project' ,
       
     } ,
