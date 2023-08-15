@@ -43,31 +43,47 @@ const Portfolio = () => {
     {
       id: 1 ,
       name: 'FootBall Reservation',
-      class: 'projects fourth-proj col-md-3 col-sm-5 col-9' ,
+      class: 'projects FootBall-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://walrus-app-oscsz.ondigitalocean.app/',
       github: 'https://github.com/yousefelma7y/cta-football-project' ,
       
     } ,
     {
       id: 2 ,
+      name: 'Freelansing Services',
+      class: 'projects Freelansing-proj col-md-3 col-sm-5 col-9' ,
+      website :'https://freelance-services.netlify.app/',
+      github: 'https://github.com/yousefelma7y/freelance-services' ,
+      
+    } ,
+    {
+      id: 3 ,
       name: 'Movies Lights Out',
-      class: 'projects first-proj col-md-3 col-sm-5 col-9' ,
+      class: 'projects Movies-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://movies-lights-out.netlify.app/',
       github: 'https://github.com/yousefelma7y/Movie-app' ,
       
     } ,
     {
-      id: 3 ,
+      id: 4 ,
+      name: 'The Programmers',
+      class: 'projects Programmers-proj col-md-3 col-sm-5 col-9' ,
+      website : 'https://the-programmers.netlify.app/',
+      github: 'https://github.com/yousefelma7y/programmers' ,
+     
+    } ,
+    {
+      id: 5 ,
       name: 'Smart School',
-      class: 'projects secound-proj col-md-3 col-sm-5 col-9' ,
+      class: 'projects School-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://new-dawn-school.netlify.app/',
       github: 'https://github.com/yousefelma7y/NewDawnSchool' ,
      
     } ,
     {
-      id: 4 ,
+      id: 6 ,
       name: 'Ecommerce Souq',
-      class: 'projects third-proj col-md-3 col-sm-5 col-9' ,
+      class: 'projects Ecommerce-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://ecommerce-souq.netlify.app/',
       github: 'https://github.com/yousefelma7y/eCommerce' ,
     

@@ -1,17 +1,24 @@
 .portfolio-page{
     background-color: #f8f8f8;
 }
-.first-proj{
-    background: url('../../images/Movie-app.png');
-    
+
+
+.Freelansing-proj{
+    background: url('../../images/FreelansingServices.png');
 }
-.secound-proj{
+.Programmers-proj{
+    background: url('../../images/TheProgrammers.png');
+}
+.Movies-proj{
+    background: url('../../images/Movie-app.png');
+}
+.School-proj{
     background: url('../../images/smartschool.png');
 }
-.third-proj{
+.Ecommerce-proj{
     background: url('../../images/souq.png');
 }
-.fourth-proj{ 
+.FootBall-proj{ 
     background: url('../../images/football.png'); 
 }
 

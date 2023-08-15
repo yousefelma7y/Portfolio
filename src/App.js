@@ -19,7 +19,6 @@ function App() {
        <Routes >
           <Route path="/" exact  element={<Pages />} />
           <Route path="/contact" element={<Contact />} />
-          
         </Routes>
         <ScrollButton />
        <Footer/>
