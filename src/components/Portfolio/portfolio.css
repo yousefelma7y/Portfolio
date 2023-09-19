@@ -1,8 +1,9 @@
 .portfolio-page{
     background-color: #f8f8f8;
 }
-
-
+.cta-proj{
+    background: url('../../images/cta.png');
+}
 .Freelansing-proj{
     background: url('../../images/FreelansingServices.png');
 }

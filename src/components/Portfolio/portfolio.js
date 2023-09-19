@@ -50,6 +50,14 @@ const Portfolio = () => {
     } ,
     {
       id: 2 ,
+      name: 'CTA Company Website',
+      class: 'projects cta-proj col-md-3 col-sm-5 col-9' ,
+      website :'https://cta-programming.netlify.app/',
+      github: 'https://github.com/yousefelma7y/cta-project' ,
+      
+    } ,
+    {
+      id: 3 ,
       name: 'Freelansing Services',
       class: 'projects Freelansing-proj col-md-3 col-sm-5 col-9' ,
       website :'https://freelance-services.netlify.app/',
@@ -57,7 +65,7 @@ const Portfolio = () => {
       
     } ,
     {
-      id: 3 ,
+      id: 4 ,
       name: 'Movies Lights Out',
       class: 'projects Movies-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://movies-lights-out.netlify.app/',
@@ -65,7 +73,7 @@ const Portfolio = () => {
       
     } ,
     {
-      id: 4 ,
+      id: 5 ,
       name: 'The Programmers',
       class: 'projects Programmers-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://the-programmers.netlify.app/',
@@ -73,7 +81,7 @@ const Portfolio = () => {
      
     } ,
     {
-      id: 5 ,
+      id: 6 ,
       name: 'Smart School',
       class: 'projects School-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://new-dawn-school.netlify.app/',
@@ -81,7 +89,7 @@ const Portfolio = () => {
      
     } ,
     {
-      id: 6 ,
+      id: 7 ,
       name: 'Ecommerce Souq',
       class: 'projects Ecommerce-proj col-md-3 col-sm-5 col-9' ,
       website : 'https://ecommerce-souq.netlify.app/',
