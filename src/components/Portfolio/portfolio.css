@@ -22,12 +22,13 @@
 .FootBall-proj{ 
     background: url('../../images/football.png'); 
 }
+.Smart-proj{ 
+    background: url('../../images/smart.jpg'); 
+}
 
 .projects-name{
-    color: white;
     font-weight: bold;
-    text-shadow: 5px 5px 10px #000000;
-
+    text-shadow: 5px 5px 10px #464646;
 }
 
 .projects{

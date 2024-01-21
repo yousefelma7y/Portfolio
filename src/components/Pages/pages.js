@@ -1,5 +1,5 @@
 import React  from  'react';
-
+import './pages.css'
 
 import Home from '../Home/Home'
 import Work from '../Work/work'
@@ -13,7 +13,7 @@ const Pages = () => {
 
    
         return(
-            <div >
+            <div className='pages'>
                 <Home/>                 
                 <Work/>
                 <Portfolio/>   

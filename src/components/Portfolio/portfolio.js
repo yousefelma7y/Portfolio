@@ -44,9 +44,15 @@ const Portfolio = () => {
       id: 1 ,
       name: 'FootBall Reservation',
       class: 'projects FootBall-proj col-md-3 col-sm-5 col-9' ,
-      website : 'https://walrus-app-oscsz.ondigitalocean.app/',
+      website : '/football',
       github: 'https://github.com/yousefelma7y/cta-football-project' ,
-      
+    } ,
+    {
+      id: 8 ,
+      name: 'Smart Edu Services',
+      class: 'projects Smart-proj col-md-3 col-sm-5 col-9' ,
+      website : '/smart',
+      github: 'https://github.com/MohamedElHamzawy/task-based-system' ,
     } ,
     {
       id: 2 ,
@@ -97,7 +103,7 @@ const Portfolio = () => {
     
     } ,
     // {
-    //   id: 4 ,
+    //   id: 8 ,
     //   name: 'Damanhour Football',
     //   class: 'projects fourth-proj col-md-3 col-sm-5 col-9'  ,
     //   website : 'https://damanhour-football.netlify.app/',
@@ -119,7 +125,7 @@ const Portfolio = () => {
         <motion.div animate={animation2} whileHover={{y:-10}} 
          key={projects.id} className={projects.class} >
             <p className="overlay p-2 ">
-              <p className='projects-name fs-3 '>{projects.name}</p>
+              <p className='projects-name text-white fs-3 '>{projects.name}</p>
               <span className='mt-5 '>
                  <Button  variant="danger" className=" m-1" onClick={()=> window.open( projects.website , "_blank")}>
                     <AiOutlineSelect/> VIEW WEBSITE
