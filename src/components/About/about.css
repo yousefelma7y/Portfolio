@@ -1,61 +1,56 @@
-.about-page{  
-    background: url('../../images/1.jpg');
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed ;
-    height: 500px;
-  
-   
+.about-page {
+  background: url("../../images/1.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 500px;
 }
-.aboutme-smallScreen{  
-    height: 500px;  
-    
+.aboutme-smallScreen {
+  height: 500px;
 }
-.about-header{
-    font-weight: bold;
-    font-size: 50px;
+.about-header {
+  font-weight: bold;
+  font-size: 50px;
 }
-.about-header2{
-    font-weight: bold;
+.about-header2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #eb5424;
+}
+@media (max-width: 991px) {
+  .aboutme-smallScreen {
+    background-image: linear-gradient(
+      rgba(117, 117, 4, 0),
+      rgba(0, 0, 0, 0.502)
+    );
+  }
+}
+@media (max-width: 485px) {
+  .about-header {
+    color: white;
+  }
+  .about-header2 {
+    font-size: 30px;
+  }
+  .about-page {
+    background-image: url("../../images/me.jpg");
+    background-position: left;
+    background-attachment: unset;
+  }
+  .about-me {
+    color: white;
+  }
+}
+@media (max-width: 420px) {
+  .about-header {
     font-size: 40px;
-    color: #eb5424;
+  }
 }
-@media (max-width:991px) { 
-    .aboutme-smallScreen{
-        background-image: linear-gradient(rgba(117, 117, 4, 0), rgba(0, 0, 0, 0.502));     
-    }
-
-}
-@media (max-width:485px) { 
-    .about-header{
-        color: white;  
-    }
-    .about-header2{ 
-        font-size: 30px;
-    }
-    .about-page{   
-        background-image: url('../../images/me.jpg');
-        background-position:left;
-        background-attachment:unset ;  
-       
-    }
-    .about-me{
-        color: white;
-    }
-   
-}
-@media (max-width:420px) { 
-    .about-header{ 
-        font-size: 40px;
-    }
-
-}
-@media (max-width:395px) {
-    .about-header{ 
-        font-size: 30px;
-    } 
-    .about-header2{ 
-        font-size: 25px;
-    }
-
+@media (max-width: 395px) {
+  .about-header {
+    font-size: 30px;
+  }
+  .about-header2 {
+    font-size: 25px;
+  }
 }
