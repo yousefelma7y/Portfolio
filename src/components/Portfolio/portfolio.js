@@ -38,8 +38,8 @@ const Portfolio = () => {
       id: 1,
       name: "FootBall Reservation",
       class: "projects FootBall-proj col-md-3 col-sm-5 col-9",
-      website: "/football",
-      github: "https://github.com/yousefelma7y/cta-football-project",
+      website: "https://mla3b-egypt.vercel.app/",
+      github: "https://github.com/yousefelma7y/Mla3b-APP",
     },
     {
       id: 8,
