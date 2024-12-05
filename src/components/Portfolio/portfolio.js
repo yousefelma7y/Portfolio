@@ -42,6 +42,13 @@ const Portfolio = () => {
       github: "https://github.com/yousefelma7y/Mla3b-APP",
     },
     {
+      id: 9,
+      name: "Roots Industrial Solutions",
+      class: "projects Roots-proj col-md-3 col-sm-5 col-9",
+      website: "https://roots-industrial-solutions.vercel.app/",
+      github: "https://github.com/yousefelma7y/roots-industrial-solutions",
+    },
+    {
       id: 8,
       name: "Smart Edu Services",
       class: "projects Smart-proj col-md-3 col-sm-5 col-9",
@@ -90,14 +97,6 @@ const Portfolio = () => {
       website: "https://ecommerce-souq.netlify.app/",
       github: "https://github.com/yousefelma7y/eCommerce",
     },
-    // {
-    //   id: 8 ,
-    //   name: 'Damanhour Football',
-    //   class: 'projects fourth-proj col-md-3 col-sm-5 col-9'  ,
-    //   website : 'https://damanhour-football.netlify.app/',
-    //   github: 'https://github.com/yousefelma7y/football' ,
-
-    // },
   ];
 
   return (

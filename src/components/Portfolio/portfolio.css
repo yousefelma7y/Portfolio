@@ -1,55 +1,57 @@
-.portfolio-page{
-    background-color: #f8f8f8;
-}
-.cta-proj{
-    background: url('../../images/cta.png');
-}
-.Freelansing-proj{
-    background: url('../../images/FreelansingServices.png');
-}
-.Programmers-proj{
-    background: url('../../images/TheProgrammers.png');
-}
-.Movies-proj{
-    background: url('../../images/Movie-app.png');
-}
-.School-proj{
-    background: url('../../images/smartschool.png');
-}
-.Ecommerce-proj{
-    background: url('../../images/souq.png');
-}
-.FootBall-proj{ 
-    background: url('../../images/football.png'); 
-}
-.Smart-proj{ 
-    background: url('../../images/smart.jpg'); 
+.portfolio-page {
+  background-color: #f8f8f8;
 }
 
-.projects-name{
-    font-weight: bold;
-    text-shadow: 5px 5px 10px #464646;
+.cta-proj {
+  background: url("../../images/cta.png");
+}
+.Freelansing-proj {
+  background: url("../../images/FreelansingServices.png");
+}
+.Programmers-proj {
+  background: url("../../images/TheProgrammers.png");
+}
+.Movies-proj {
+  background: url("../../images/Movie-app.png");
+}
+.School-proj {
+  background: url("../../images/smartschool.png");
+}
+.Ecommerce-proj {
+  background: url("../../images/souq.png");
+}
+.FootBall-proj {
+  background: url("../../images/football.png");
+}
+.Smart-proj {
+  background: url("../../images/smart.jpg");
+}
+.Roots-proj {
+  background: url("../../images/roots-industrial-solutions.png");
 }
 
-.projects{
-    border: 3px solid #cf4f28;
-    height: 250px;
-    margin: 20px;
-    padding: 0px;
-    background-size: cover;
-    background-position: center;
+.projects-name {
+  font-weight: bold;
+  text-shadow: 5px 5px 10px #464646;
 }
 
-.overlay{
-    backdrop-filter: blur(10px);
-    transition: opacity 0.7s ease-in-out ; 
-    height: 100%;
-    width: 100.2%; 
-   
-    opacity: 0;
-}
-.projects:hover .overlay{
-opacity: 1;
+.projects {
+  border: 3px solid #cf4f28;
+  height: 250px;
+  margin: 20px;
+  padding: 0px;
+  background-size: cover;
+  background-position: center;
 }
 
+.overlay {
+  backdrop-filter: blur(10px);
+  transition: opacity 0.7s ease-in-out;
+  height: 100%;
+  width: 100.2%;
 
+  opacity: 0;
+}
+.projects:hover .overlay {
+  opacity: 1;
+}
