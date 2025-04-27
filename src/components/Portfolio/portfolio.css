@@ -32,6 +32,9 @@
 .Toyagator-proj {
   background: url("../../images/toyagator.png");
 }
+.Gym-proj {
+  background: url("../../images/gymSystem.png");
+}
 
 .projects-name {
   font-weight: bold;

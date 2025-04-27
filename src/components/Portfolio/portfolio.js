@@ -42,6 +42,13 @@ const Portfolio = () => {
       // github: "https://github.com/yousefelma7y/Mla3b-APP",
     },
     {
+      id: 11,
+      name: "Gym System",
+      class: "projects Gym-proj col-md-3 col-sm-5 col-9",
+      website: "https://elz3lan-gym.vercel.app/",
+      // github: "https://github.com/yousefelma7y/Mla3b-APP",
+    },
+    {
       id: 9,
       name: "FootBall Reservation",
       class: "projects FootBall-proj col-md-3 col-sm-5 col-9",
