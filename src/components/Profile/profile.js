@@ -3,7 +3,7 @@ import { Row } from "react-bootstrap";
 import { motion } from "framer-motion";
 
 import "./profile.css";
-
+import { IoDocumentAttachOutline } from "react-icons/io5";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import { useEffect } from "react";
@@ -23,6 +23,16 @@ const Profile = () => {
       id: 2,
       name: "React js",
       percentage: 95,
+    },
+    {
+      id: 66,
+      name: "Next js",
+      percentage: 95,
+    },
+    {
+      id: 34,
+      name: "TypeScript",
+      percentage: 85,
     },
     {
       id: 3,
@@ -57,6 +67,11 @@ const Profile = () => {
     {
       id: 9,
       name: "WordPress Plugins",
+      percentage: 90,
+    },
+    {
+      id: 34,
+      name: "Microfrontend",
       percentage: 80,
     },
   ];
@@ -107,6 +122,12 @@ const Profile = () => {
               {" "}
               yousefelmahy7112000@gmail.com{" "}
             </span>
+          </motion.div>
+          <motion.div animate={animation} className="profile-items row">
+            <span className="col-xl-3 col-6 fw-bold">Attachment (CV)</span>
+            <div className="col-xl-3 col-sm-6 email ">
+              <a href="YousefElmahycv.pdf" download><IoDocumentAttachOutline className="cv" /></a>
+            </div>
           </motion.div>
         </div>
       </div>
