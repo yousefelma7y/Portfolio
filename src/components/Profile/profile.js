@@ -41,6 +41,11 @@ const Profile = () => {
     },
     {
       id: 4,
+      name: "React Query",
+      percentage: 70,
+    },
+    {
+      id: 4,
       name: "Redux",
       percentage: 85,
     },
@@ -96,10 +101,10 @@ const Profile = () => {
   return (
     <Row ref={ref} className="w-100 justify-content-center" id="resume">
       <div className="col-md-5 col-12  ">
-        <motion.h1 animate={animation} className="p-5">
+        <motion.h1 animate={animation} className="p-3 p-md-5">
           My <span className="fw-bold">Profile</span>
         </motion.h1>
-        <div className="profile-list m-5">
+        <div className="profile-list m-3 m-md-5">
           <motion.div animate={animation} className="profile-items row ">
             <span className="col-xl-3 col-6 fw-bold">Name </span>
             <span className="col-xl-4 col-6"> Yousef Elmahy </span>
@@ -117,31 +122,31 @@ const Profile = () => {
             <span className="col-xl-3 col-6">01022361568 </span>
           </motion.div>
           <motion.div animate={animation} className="profile-items row">
-            <span className="col-xl-3 col-6 fw-bold">Email</span>
-            <span className="col-xl-3 col-sm-6  email">
+            <span className="col-xl-3 col-3 fw-bold">Email</span>
+            <span className="col-xl-3 col-9  email">
               {" "}
               yousefelmahy7112000@gmail.com{" "}
             </span>
           </motion.div>
           <motion.div animate={animation} className="profile-items row">
-            <span className="col-xl-3 col-6 fw-bold">Attachment (CV)</span>
-            <div className="col-xl-3 col-sm-6 email ">
+            <span className="col-xl-3 col-7 fw-bold">Attachment (CV)</span>
+            <div className="col-xl-3 col-5 email ">
               <a href="YousefElmahycv.pdf" download><IoDocumentAttachOutline className="cv" /></a>
             </div>
           </motion.div>
         </div>
       </div>
-      <div className="col-md-5 col-12 p-5 m-5">
+      <div className="col-md-5 col-12 p-5">
         <motion.h1 animate={animation2}>
           <span className="fw-bold"> Some </span> Skills
         </motion.h1>
 
         {skills.map((skill) => (
           <Row className=" profile-skills " key={skill.id}>
-            <motion.span animate={animation2} className="col-6 p-3">
+            <motion.span animate={animation2} className="col-6 p-2 p-md-3">
               {skill.name}
             </motion.span>
-            <motion.span animate={animation2} className="col-6 p-3 text-center">
+            <motion.span animate={animation2} className="col-6 p-2 p-md-3 text-center">
               {skill.percentage}%
             </motion.span>
             <div className="parent col-12">

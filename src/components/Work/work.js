@@ -38,11 +38,22 @@ const Work = () => {
         "I'm Working as a Frontend developer in OCTAGATOR Company from may 2024 until now.",
     },
     {
+      id: 5,
+      workName: "BIOTech Company",
+      workDescription:
+        "Worked as a Frontend developer in BIOTech Saudi Arabia Company for 3 months Remotly.",
+    },
+    {
       id: 2,
       workName: "CTA Company",
       workDescription:
         "Worked as a Frontend developer in CTA Company for 1 year.",
     },
+    // {
+    //   id: 6,
+    //   workName: "Egyption Military",
+    //   workDescription: "Served at Egyption Military for 1 year In A Software team as a front end developer.",
+    // },
     {
       id: 3,
       workName: "Freelance",
@@ -54,11 +65,7 @@ const Work = () => {
       workDescription:
         "Trained at ITI company for 3 months as a Front End developer .",
     },
-    // {
-    //   id: 5,
-    //   workName: "Egyption Military",
-    //   workDescription:    "Served at Egyption Military for 1 year.",
-    // },
+
   ];
 
   return (
